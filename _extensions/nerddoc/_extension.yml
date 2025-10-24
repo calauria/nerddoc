@@ -9,10 +9,6 @@ contributes:
             title-block-banner: false
             callout-appearance: default
             callout-icon: true
-            # html-math-method: katex
-            # include-in-header: _includes/_in_header.html
-            # include-after-body: _includes/_after_body.html
-            embed-resources: false
-            self-contained-math: false
+            html-math-method: katex
 
 

@@ -2,6 +2,7 @@ project:
     type: default
     output-dir: docs
 
+lang: de
 toc: false
 toc-depth: 5
 toc-location: right
@@ -12,9 +13,14 @@ appendix-style: default
 format:
     html:
         page-layout: full
+        theme: 
+          - brand
+          - _style/_custom.scss
         css: _style/_style.css
-        theme: brand
-        # html-math-method: katex
+        # include-in-header: _includes/_in_header.html
+        # include-after-body: _includes/_after_body.html
+        embed-resources: false
+        self-contained-math: false
 
 engine: knitr
 brand: _brand.yml

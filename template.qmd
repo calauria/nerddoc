@@ -1,4 +1,3 @@
-{{< include _includes/_front_matter.qmd >}}
 <!-- {{< include _includes/_init_fontawesome.qmd >}}  -->
 
 ::: {.column-screen-inset}

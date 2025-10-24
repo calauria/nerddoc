@@ -1,7 +1,0 @@
----
-lang: de
-format:
-    nerddoc-html:
-        embed-resources: false
-        self-contained-math: false
----
