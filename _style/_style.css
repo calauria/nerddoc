@@ -1,0 +1,23 @@
+.left-paragraph {
+    text-align: left;
+    float: left;
+}
+
+.right-paragraph {
+    text-align: right;
+    float: right;
+}
+
+.html-title-logo {
+    border-width: 2px;
+    border-style: solid;
+    border-color: "#D44D39";
+}
+
+.menu-item {
+    color: "#D44D39" !important;
+}
+
+.katex { 
+    font-size: 1.16em; 
+}

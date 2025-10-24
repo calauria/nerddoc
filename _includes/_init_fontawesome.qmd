@@ -1,0 +1,1 @@
+<!-- Initialize Fontawesome with any icon {{< fa thumbs-up >}} -->

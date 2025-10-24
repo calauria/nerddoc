@@ -1,0 +1,21 @@
+project:
+    type: default
+    output-dir: docs
+
+toc: false
+toc-depth: 5
+toc-location: right
+toc-expand: true
+number-sections: false
+appendix-style: default
+  
+format:
+    html:
+        page-layout: full
+        css: _style/_style.css
+        theme: brand
+        # html-math-method: katex
+
+engine: knitr
+brand: _brand.yml
+    

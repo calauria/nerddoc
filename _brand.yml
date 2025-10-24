@@ -1,0 +1,44 @@
+meta:
+    name:
+        full: Nerd Doc
+        short: nerddoc
+    description: So was von Nerd!
+    founded: 2025 
+
+logo:
+    small: _style/nerddoc_logo.png
+    medium: _style/nerddoc_logo.png
+    large: _style/nerddoc_logo.svg
+
+color:
+    palette:
+        night: "#061206ff"
+        dark-green: "#11250fff"
+        pakistan-green: "#1e2f0eff"
+        dark-moss-green: "#38451bff"
+        olive: "#7e880eff"
+    foreground: dark-moss-green # The main text color. Typically will be close to black and must have high contrast with the background color.
+    background: night #The main background color. Tyically will be close to white and must have high contrast with the foreground color.
+    primary: olive # The primary accent color, used for hyperlinks, active states, and primary action buttons.
+    secondary: pakistan-green # The secondary accent color, often used for lighter text or disabled states.
+    tertiary: dark-green # The tertiary accent color, used for hover states, accents, and wells.
+    success: green # The color used for positive or successful actions and information.
+    info: blue # The color used for neutral or informational actions and information.
+    warning: orange # The color used for warning or cautionary actions and information.
+    danger: red # The color used for errors, dangerous actions, or negative information.
+
+typography:
+    fonts: 
+      - family: Oxanium
+        source: bunny
+      - family: Crimson Pro
+        source: bunny
+      - family: Fraunces
+        source: bunny
+    base:
+        family: Fraunces
+    headings:
+        family: Oxanium
+        color: olive
+    link:
+        color: olive
