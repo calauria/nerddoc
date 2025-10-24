@@ -1,0 +1,10 @@
+---
+title: |
+    <p>![](_style/mgmss_brand_color.png){width=40px}</p>
+    Title
+subtitle: 'Subtitle<br><small>Document type</small>'
+date: 2100-10-10 
+date-modified: 2100-10-10
+author: Călin Aurel Drăgan
+abstract: 'Abstract'
+---
