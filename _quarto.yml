@@ -15,8 +15,8 @@ format:
         page-layout: full
         theme: 
           - brand
-          - _style/_custom.scss
-        css: _style/_style.css
+          - style/_custom.scss
+        css: style/_style.css
         # include-in-header: _includes/_in_header.html
         # include-after-body: _includes/_after_body.html
         embed-resources: false

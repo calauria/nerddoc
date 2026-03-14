@@ -6,22 +6,64 @@ meta:
     founded: 2025 
 
 logo:
-    small: _style/nerddoc_logo.png
-    medium: _style/nerddoc_logo.png
-    large: _style/nerddoc_logo.svg
+    small: style/nerddoc_logo.png
+    medium: style/nerddoc_logo.png
+    large: style/nerddoc_logo.svg
 
 color:
     palette:
-        night: "#061206ff"
-        dark-green: "#11250fff"
-        pakistan-green: "#1e2f0eff"
-        dark-moss-green: "#38451bff"
-        olive: "#7e880eff"
-    foreground: dark-moss-green # The main text color. Typically will be close to black and must have high contrast with the background color.
-    background: night #The main background color. Tyically will be close to white and must have high contrast with the foreground color.
-    primary: olive # The primary accent color, used for hyperlinks, active states, and primary action buttons.
-    secondary: pakistan-green # The secondary accent color, often used for lighter text or disabled states.
-    tertiary: dark-green # The tertiary accent color, used for hover states, accents, and wells.
+        # Ivory
+        ivory: "#F4F4E7"
+        ivory-shade-1: "#dbdbcf"
+        ivory-shade-2: "#c3c3b8"
+        ivory-shade-3: "#aaaaa1"
+        ivory-shade-4: "#92928a"
+        ivory-shade-5: "#7a7a73"
+        ivory-shade-6: "#61615c"
+        ivory-shade-7: "#494945"
+        ivory-shade-8: "#30302e"
+        ivory-shade-9: "#181817"
+        # Gray
+        gray-shade-1: "#e5e5e5"
+        gray-shade-2: "#cccccc"
+        gray-shade-3: "#b2b2b2"
+        gray-shade-4: "#999999"
+        gray-shade-5: "#7f7f7f"
+        gray-shade-6: "#666666"
+        gray-shade-7: "#4c4c4c"
+        gray-shade-8: "#333333"
+        gray-shade-9: "#191919"
+        blue: "#4d8ac2"
+        purple: "#AF51E7"
+        red: "#D44D39"
+        orange: "#F1C232"
+        # Yellow
+        yellow: "#D9E150"
+        yellow-shade-1: "#c3ca48"
+        yellow-shade-2: "#adb440"
+        yellow-shade-3: "#979d38"
+        yellow-shade-4: "#828730"
+        yellow-shade-5: "#6c7028"
+        yellow-shade-6: "#565a20"
+        yellow-shade-7: "#414318"
+        yellow-shade-8: "#2b2d10"
+        yellow-shade-9: "#151608"
+        # Green
+        green: "#477a43"
+        green-shade-1: "#3f6d3c"
+        green-shade-2: "#386135"
+        green-shade-3: "#31552e"
+        green-shade-4: "#2a4928"
+        green-shade-5: "#233d21"
+        green-shade-6: "#1c301a"
+        green-shade-7: "#152414"
+        green-shade-8: "#0e180d"
+        green-shade-9: "#070c06"
+    foreground: ivory-shade-9 # The main text color. Typically will be close to black and must have high contrast with the background color.
+    background: ivory #The main background color. Tyically will be close to white and must have high contrast with the foreground color.
+    primary: green-shade-6 # The primary accent color, used for hyperlinks, active states, and primary action buttons.
+    secondary: ivory-shade-7 # The secondary accent color, often used for lighter text or disabled states.
+    tertiary: gray-shade-7 # The tertiary accent color, used for hover states, accents, and wells.
     success: green # The color used for positive or successful actions and information.
     info: blue # The color used for neutral or informational actions and information.
     warning: orange # The color used for warning or cautionary actions and information.
@@ -39,6 +81,6 @@ typography:
         family: Fraunces
     headings:
         family: Oxanium
-        color: olive
+        color: ivory-shade-7
     link:
-        color: olive
+        color: green-shade-2
